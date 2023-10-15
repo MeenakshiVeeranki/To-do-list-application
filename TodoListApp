@@ -12,7 +12,7 @@ public class TodoListApp
     	public void addTask(Object task) 
 	{
         	todoList.add(task);
-		System.out.println("The element you asked to add " + task + " is added to the list.");
+		System.out.println("The element " + task + " is added to the list.");
    	 }
     	// Function to remove an element at a specific index
     	public void removeElementAtIndex(int taskindex) 
@@ -20,7 +20,7 @@ public class TodoListApp
         	if (taskindex >= 0 && taskindex <= (todoList.size()-1)) 
 		{
            		todoList.remove(taskindex);
-			System.out.println("The element you asked to delete at index " + "["+taskindex+"]" + " is removed from the list.");
+			System.out.println("The element deleted at index " + "["+taskindex+"]" + " is removed from the list.");
         	} 
 		else 
 		{
